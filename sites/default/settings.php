@@ -205,16 +205,17 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'temptlar_tnet_live',
-      'username' => 'temptlar',
-      'password' => 'Quad!123',
+      'database' => 'tnet',
+      'username' => 'admin',
+      'password' => 'root',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
-      'prefix' => false,
+      'prefix' => '',
     ),
   ),
 );
+
 
 /**
  * Access control for update.php script.
